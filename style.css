@@ -28,6 +28,8 @@
     display: flex;
     gap: 20px;
     width: 300px;
+    justify-content: space-between;
+    align-items: center;
   }
   
   button {
@@ -47,8 +49,6 @@
   .no-btn {
     background-color: #641fb8;
     color: #fff;
-    position: absolute;
-    left: 500px;
   }
 
   .popup-img {

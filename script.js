@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const randomY = Math.random() * (windowHeight - noButton.offsetHeight);
   
       // Apply the random positions
+      noButton.style.position = "absolute";
       noButton.style.left = `${randomX}px`;
       noButton.style.top = `${randomY}px`;
     }
